@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.header-top{
+    padding: 27px 15px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 6px 27px 8px rgba(6, 6, 6, 0.22);
+    -moz-box-shadow: 0px 6px 27px 8px rgba(6, 6, 6, 0.22);
+    box-shadow: 0px 6px 27px 8px rgba(6, 6, 6, 0.22);
+}
+
+.header-top-left{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
+}
+
+.top-list{
+    width: 47%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item{
+    display: flex;
+}
+
+.list-item > p {
+    color: rgb(30, 30, 124);
+    font-weight: 700;
+    line-height: normal;
+    font-size: 20px;
+    margin-right: 3px;
+}
+.header-top-right{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.magnify-svg{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    height: 30px;
+    border: none;
+    background: transparent;
+}
+
+.btn:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    padding: 5px 10px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(7,125,240,1) 0%, rgba(18,170,247,0.9948354341736695) 63%, rgba(86,195,233,0.9416141456582633) 100%);
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 80px;
+    /* border: 2px solid red; */
+    -webkit-box-shadow: 0px 6px 27px 8px rgba(6, 6, 6, 0.22);
+    -moz-box-shadow: 0px 6px 27px 8px rgba(6, 6, 6, 0.22);
+    box-shadow: 0px 6px 27px 8px rgba(6, 6, 6, 0.22);
+}
+
+.nav-list{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-list-item:hover{
+    cursor: pointer;
+    color: rgb(30, 30, 124);
+    transition: all 0.3s ease;
+}
+
+.header-ad{
+    margin-top: 30px;
+}
+
+.add-img{
+    width: 100%;
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 20px; */
+}
+
+.info-desc-1{
+    color: red;
+}
+
+.info-desc-2{
+    color: rgb(15, 151, 15);
+}
+.info-hr{
+    
+}
+
+span{
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+}
+
+span > img{
+    margin-right: 10px;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-card-wrapper{
+    width: 60%;
+}
+
+.card{
+    display: flex;
+    margin-top: 30px;
+}
+
+.card-img{
+    margin-right: 15px;
+}
+
+.card-date{
+    color: rgb(30, 30, 124);
+}
+
+.right-card-wrapper{
+    width: 35%;
+}
+
+.card-left{
+    margin-top: 30px;
+    border-bottom: 5px solid #E4E4E4;
+}
+
+.card-right-img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer-card{
+    background-color: rgb(30, 30, 124);
+}
+
+.footer-card-btn{
+    margin-top: 30px;
+    margin-left: 35%;
+    color: white;
+    border: 3px solid rgb(30, 30, 124);
+    background-color: rgb(30, 30, 124);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foter {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 2%;
+    border: 2px solid rgb(169, 169, 255);
+    background-color: #295091;
+    justify-content: space-between;
+    padding: 40px;
+    color: rgb(250, 250, 250);
+    margin-left: 15%;
+    border-radius: 4px;
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.foter-title {
+    width: 173px;
+    height: 21px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30%;
+
+}
+
+
+.foter-text {
+    width: 659px;
+    height: 19px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn {
+    width: 97px;
+    height: 21px;
+    color: #1E96C8;
+    font-size: 16px;
+    font-weight: 500;
+    width: 146px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+   
+
+}
+
+.chiziq {
+    color: rgb(65, 63, 63);
+}
+
+.finish {
+    margin-top: 2%;
+    display: flex;
+    gap: 20%;
+    margin-right: 10%;
+}
+
+.foter-head {
+    width: 1540px;
+    height: 15px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 14px;
+    justify-content: space-between;
+}
